@@ -6,29 +6,12 @@ setopt nocorrect
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
 # Alias
-alias flaskproj="/home/Project/env/bin/python /home/Project/env/FlaskProj/index.py"
-alias eclipse="nohup /usr/bin/eclipse"
-alias clr="clear"
-alias kiss="echo KEEP IT SIMPLE STUPID!!!"
-alias ....="cd ~/"
-alias lein="~/.scripts/lein.sh"
-alias vim="vim -u ~/.vim/vimrc"
-alias gvim="vim -U ~/.vim/vimrc"
-alias _vimrc="vim ~/.config/vim/vimrc"
-alias :q="sudo shutdown -h now" 
-alias :r="sudo reboot -h now"
-alias :su="sudo su"
-alias :h="man "
-
 #Shortcuts Using ~shortcut
+alias ":wq"="echo 'This is not f**king vim.You should use ! at end'"
+alias "clr"="clear"
+
 
 hash -d home="/home/misiek"
-hash -d project="/home/misiek/Project"
-hash -d music="/windows/D/Muzyka"
-hash -d download="/home/misiek/Download"
-hash -d pydir="/home/misiek/Project/Parspy/Pydir"
-hash -d python="/home/misiek/Project/python"
-# Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
